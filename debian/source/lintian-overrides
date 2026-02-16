@@ -1,0 +1,5 @@
+python-pysolr source: file-without-copyright-information
+python-pysolr source: no-debian-changes
+python-pysolr source: source-contains-prebuilt-windows-binary
+python-pysolr source: source-is-missing
+python-pysolr source: source-package-encodes-python-version

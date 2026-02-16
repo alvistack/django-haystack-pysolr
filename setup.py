@@ -6,7 +6,7 @@ except ImportError:
 
 setup(
     name="pysolr",
-    use_scm_version=True,
+    version="3.10.0",
     description="Lightweight Python client for Apache Solr",
     author="Daniel Lindsley",
     author_email="daniel@toastdriven.com",
@@ -29,5 +29,4 @@ setup(
         "importlib_metadata; python_version<'3.8'",
     ],
     extras_require={"solrcloud": ["kazoo>=2.5.0"]},
-    setup_requires=["setuptools_scm"],
 )
